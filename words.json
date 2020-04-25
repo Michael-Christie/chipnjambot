@@ -1,0 +1,26 @@
+{
+    "nouns": [
+        {
+            "word": "Bat"
+        },
+        {
+            "word": "Chicken"
+        }
+    ],
+    "verbs": [
+        {
+            "word": "Fluffy"
+        },
+        {
+            "word": "Frantic"
+        }
+    ],
+    "mechanic": [
+        {
+            "word": "Fighting"
+        },
+        {
+            "word": "Swimming"
+        }
+    ]
+}
