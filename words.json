@@ -5,6 +5,24 @@
         },
         {
             "word": "Chicken"
+        },
+        {
+            "word": "Simulator"
+        },
+        {
+            "word": "Starfighter"
+        },
+        {
+            "word": "Rubber Ducky"
+        },
+        {
+            "word": "Mug"
+        },
+        {
+            "word": "Jam"
+        },
+        {
+            "word": "Cult"
         }
     ],
     "verbs": [
@@ -13,6 +31,42 @@
         },
         {
             "word": "Frantic"
+        },
+        {
+            "word": "Pick"
+        },
+        {
+            "word": "Sit"
+        },
+        {
+            "word": "Squidgy"
+        },
+        {
+            "word": "Bouncy"
+        },
+        {
+            "word": "Eliminate"
+        },
+        {
+            "word": "Stumbling"
+        },
+        {
+            "word": "Hacky"
+        },
+        {
+            "word": "Monochromed"
+        },
+        {
+            "word": "Behold"
+        },
+        {
+            "word": "Atomic"
+        },
+        {
+            "word": "Asylum"
+        },
+        {
+            "word": "Invade"
         }
     ],
     "mechanic": [
@@ -20,7 +74,31 @@
             "word": "Fighting"
         },
         {
-            "word": "Swimming"
+            "word": "Eliminate"
+        },
+        {
+            "word": "Race"
+        },
+        {
+            "word": "Puzzle"
+        },
+        {
+            "word": "Control"
+        },
+        {
+            "word": "Build"
+        },
+        {
+            "word": "Collect"
+        },
+        {
+            "word": "Protect"
+        },
+        {
+            "word": "Shooter"
+        },
+        {
+            "word": "Evolution"
         }
     ]
 }
