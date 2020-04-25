@@ -8,7 +8,7 @@ const prefix = '?';
 
 client.on('ready', () => {
     console.log('Bot is online');
-    client.user.setActivity('Chip Jam', { type: 'WATCHING' })
+    client.user.setActivity("Chip N' Jam", { type: 'WATCHING' })
 })
 
 client.on('message', message => {
