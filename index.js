@@ -22,10 +22,12 @@ client.on('message', message => {
         let word = message.content.substring(1);
         let words = word.slice(0).trim().split(/ +/);
 
+        console.log(words);
 
         switch (words[0].toLocaleLowerCase()) {
 
             case 'help':
+                console.log("help");
                 const help = new Discord.MessageEmbed()
                     .setColor('#0099ff')
                     .setTitle('**Help**')
