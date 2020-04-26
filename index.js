@@ -76,6 +76,7 @@ client.on('message', message => {
                     if (time > 0 && time < 600) {
 
                         message.author.send("I will remind you in " + time + " minutes!");
+                        message.react('👍');
 
                         setTimeout(function () {
                             message.author.send(m);
