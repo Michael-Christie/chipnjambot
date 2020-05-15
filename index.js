@@ -90,9 +90,9 @@ client.on('message', message => {
 
             case 'time':
                 //gives the time till jam / time remaining in jam / time left to vote
-                let startDate = new Date("May 15, 2020 17:00:00").getTime();
-                let endDate = new Date("May 17, 2020 17:00:00").getTime();
-                let endVote = new Date("May 22, 2020 17:00:00").getTime();
+                let startDate = new Date("May 15, 2020 16:00:00").getTime();
+                let endDate = new Date("May 17, 2020 16:00:00").getTime();
+                let endVote = new Date("May 22, 2020 16:00:00").getTime();
                 let ending = 'Till Start';
 
                 let now = new Date().getTime();
