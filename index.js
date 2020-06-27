@@ -90,9 +90,9 @@ client.on('message', message => {
 
             case 'time':
                 //gives the time till jam / time remaining in jam / time left to vote
-                let startDate = new Date("May 15, 2020 16:00:00").getTime();
-                let endDate = new Date("May 17, 2020 16:00:00").getTime();
-                let endVote = new Date("May 22, 2020 16:00:00").getTime();
+                let startDate = new Date("July 17, 2020 11:00:00").getTime();
+                let endDate = new Date("July 20, 2020 11:00:00").getTime();
+                let endVote = new Date("July 24, 2020 11:00:00").getTime();
                 let ending = 'Till Start';
 
                 let now = new Date().getTime();
@@ -126,7 +126,7 @@ client.on('message', message => {
                     .setColor('#0099ff')
                     .setTitle('**' + ending + '**')
                     //.setURL('https://discord.js.org/')
-                    .setAuthor("Chip 'N Jam", client.user.avatarURL({ format: 'png' }), 'https://itch.io/jam/chip-n-jam')
+                    .setAuthor("Chip 'N Jam : Summer 2020", client.user.avatarURL({ format: 'png' }), 'https://itch.io/jam/chip-n-jam')
                     //.setThumbnail('https://i.imgur.com/wSTFkRM.png')
                     .addFields(
                         //{ name: '\u200B', value: '\u200B' },
