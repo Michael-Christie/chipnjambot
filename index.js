@@ -61,7 +61,7 @@ client.on('message', message => {
                 let nWord = noun[Math.floor(Math.random() * Math.floor(noun.length))].word;
                 let vWord = verb[Math.floor(Math.random() * Math.floor(verb.length))].word;
 
-                message.channel.send('<@' + message.author + '>' + ' ' + vWord + ' ' + mWord + ' ' + nWord);
+                message.channel.send('<@' + message.author + '>' + ' ' + nWord + ' ' + mWord + ' ' + vWord);
                 break;
 
             case 'setreminder':
